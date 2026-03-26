@@ -16,7 +16,6 @@ IGNORE_PATTERNS = [
     "node_modules",
 ]
 
-
 def should_ignore(path):
     for pattern in IGNORE_PATTERNS:
         if fnmatch.fnmatch(path, pattern):
