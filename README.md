@@ -164,10 +164,10 @@ Compare a different directory (not current dir):
 
 ## Output Modes
 
-A) FULL OUTPUT (default)
-    Shows every file and its status.
+### A) FULL OUTPUT (default)
+Shows every file and its status.
 
-B) SUMMARY MODE
+### B) SUMMARY MODE
 ```bash
 python file_integrity_checker.py --compare baseline.json --summary
 ```
@@ -178,20 +178,20 @@ python file_integrity_checker.py --compare baseline.json --summary
       new: 2
       meta_changed: 1
 
-C) QUIET MODE
+### C) QUIET MODE
 ```bash    
 python file_integrity_checker.py --compare baseline.json --quiet
 ```
 Only prints summary unless combined with --summary.
 
-D) JSON EXPORT
+### D) JSON EXPORT
 ```bash
 python file_integrity_checker.py \
         --compare baseline.json \
         --json-out results.json
 ```
 
-E) CSV EXPORT
+### E) CSV EXPORT
 ```bash
 python file_integrity_checker.py \
         --compare baseline.json \
