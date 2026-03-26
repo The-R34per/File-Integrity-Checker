@@ -142,7 +142,7 @@ Create a baseline:
         --out baseline.json
 ```
 
-If --out is omitted, baseline.json is used automatically.
+If ```--out``` is omitted, baseline.json is used automatically.
 
 ---
 
