@@ -49,7 +49,7 @@ Ignore patterns prevent hashing files that naturally change often (logs, caches,
 
 This tool provides two modes of operation:
 
-A) MENU MODE (default)
+### A) MENU MODE (default)
    - Activated when you run the script with NO arguments.
    - Allows checking a single file or an entire directory.
    - Uses your original ASCII-art interface.
@@ -65,7 +65,7 @@ You will see:
 - Option to choose hashing algorithm
 This tool is exactly like the previous version.
 
-B) ADVANCED CLI MODE
+### B) ADVANCED CLI MODE
    - Activated when you run the script WITH arguments.
    - Enables full baseline creation, comparison, exporting,
      timestamp tracking, permission tracking, summary mode,
