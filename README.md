@@ -85,39 +85,39 @@ python FileChecker.py --help
 
 ### BASELINE / COMPARE OPTIONS
 
---baseline DIR
+```--baseline DIR```
 Create a baseline from the specified directory.
 
---compare BASELINE.json
+```--compare BASELINE.json```
 Compare a directory against an existing baseline file.
 
---dir DIR
+```--dir DIR```
 Directory to compare. If omitted, uses the baseline's original root directory.
 
 ---
 
 ### HASHING OPTIONS
 
---algo {md5, sha1, sha256, sha512}
+```--algo {md5, sha1, sha256, sha512}```
 Hashing algorithm to use (default: sha256)
 
 ---
 
 ### OUTPUT OPTIONS
 
---out FILE
+```--out FILE```
 Output path for baseline JSON when using --baseline.
 
---json-out FILE
+```--json-out FILE```
 Write comparison results to a JSON file.
 
---csv-out FILE
+```--csv-out FILE```
 Write comparison results to a CSV file.
 
---summary
+```--summary```
 Show only a summary of results.
 
---quiet
+```--quiet```
 Suppress detailed per-file output.
 
 ---
