@@ -253,20 +253,16 @@ No external libraries are required.
 ## Troubleshooting
 
 Problem: "Directory does not exist"
-Solution:
-    Check your path and ensure it is correct.
+- Check your path and ensure it is correct.
 
 Problem: "Baseline file not found"
-Solution:
-    Ensure the JSON file exists and is readable.
+- Ensure the JSON file exists and is readable.
 
 Problem: "Permission denied"
-Solution:
-    Run with appropriate permissions or exclude restricted folders.
+- Run with appropriate permissions or exclude restricted folders.
 
 Problem: "Ignored by pattern"
-Solution:
-    The file or folder matches IGNORE_PATTERNS.
+- The file or folder matches IGNORE_PATTERNS.
 
 ---
 
