@@ -20,7 +20,7 @@ Supports multiple hashing algorithms, single‑file checks, directory‑wide sca
   - Virtual environments
   - Git metadata
   - Node modules
-- Create a ile Integrity Baseline
+- Create a File Integrity Baseline
 - Compare a directory agaisnt a baseline
 - Export results to:
   - JSON
